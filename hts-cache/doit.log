@@ -1,0 +1,8 @@
+-q -%i -w http://www.aydrate.com http://www.chattifi.com http://taltop.com http://www.kado.tech https://matchpool.co http://www.bapp.co.il http://helpi.io https://www.getkvisi.com -O "/home/tits/websites/Israel mobile app" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -r2 -%e2 -A250000000 -F "" -%F "" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u
+File generated automatically on Thu, 28 Dec 2017 01:03:24, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

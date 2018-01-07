@@ -1,0 +1,309 @@
+/*
+
+* Skeleton V1.2
+
+* Copyright 2011, Dave Gamache
+
+* www.getskeleton.com
+
+* Free to use under the MIT license.
+
+* http://www.opensource.org/licenses/mit-license.php
+
+* 6/20/2012
+
+*/
+
+
+
+
+
+/* Table of Contents
+
+==================================================
+
+    #Base 960 Grid
+
+    #Tablet (Portrait)
+
+    #Mobile (Portrait)
+
+    #Mobile (Landscape)
+
+    #Clearing */
+
+
+
+@media (min-width: 1201px) and (max-width: 1650px){
+
+
+}
+
+
+
+/* #Base 960 Grid
+
+================================================== */
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1920px) {
+	.og-grid li > a .services
+	{
+	width: 356px;
+	}
+	.og-grid li > a, .og-grid li > a img
+	{
+	width:90%;
+	}
+}
+
+
+
+
+
+/* #Tablet (Portrait)
+
+================================================== */
+@media only screen and (min-width: 980px) and (max-width: 1024px) {
+.services-grid
+{
+width:100%;
+}
+.og-expander
+{
+width: 99.5% !important;
+}
+header .logo{ padding-top:21px;}
+header .logo img{ width:90%;}
+header .menu li {padding: 15px 10px 15px 10px;}
+header .menu li.get-started{margin-left: 8px;}
+header .menu li a {font-size: 14px;}
+.list .text_1 {font-size: 19px;}
+.list .text_3 {font-size: 26px;}
+.list .text_2 {font-size: 26px;}
+header .slider-info h1{font-size: 35px;}
+.features-bg-mid .laptop{ background-image: url(http://www.chattifi.com/images/laptop_graphic.png) !important; background-repeat: no-repeat; background-position: bottom 30px right 0px; background-size: 48%;}
+.list .text_1{ text-align:left !important; font-size: 38px !important;}
+.list .text_2{ text-align:left !important;}
+.list .item{font-size: 18px !important; padding-left: 0px !important; padding-right: 55px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.menu-link{ font-size:15px;}
+.header .tagline{font-size: 40px;padding-top: 125px;}
+.header .icons{ margin-bottom:15px;}
+#main .header{min-height: 690px;background-position: right top;background-size: unset;}
+.og-grid li > a .services {
+	width: 305px;
+	height: 250px;
+}
+.og-grid li
+{
+	height: 250px;
+}
+.og-grid li > a, .og-grid li > a img
+{
+width:80%;
+}
+.services-grid .service-1,.services-grid .service-2,.services-grid .service-3,.services-grid .service-4,.services-grid .service-5,.services-grid .service-6
+{
+padding-top:90px;
+}
+.og-expander
+{
+width: 90.5%;
+}
+.og-grid li.og-expanded > a::after
+{
+left:136px;
+}
+header .logo img{width:100%;}
+header .menu{padding-top:30px;}
+header .menu .links{ padding-left:0px;}
+header .menu li {padding: 15px 10px 15px 10px;}
+header .menu li.get-started{margin-left: 8px;}
+header .menu li a {font-size: 14px;}
+#main .bg{min-height: 600px;}
+header .slider-info h1{font-size: 25px;}
+header .slider-info h2{font-size: 16px;}
+header .slider-info{margin-top: 200px;}
+
+header .inner h1{font-size: 40px;}
+header .inner h2{font-size: 22px;}
+header .inner{margin-top: 250px;}
+
+
+header .slider-info .signup-btn{ margin-right:0}
+header .slider-info .contact-btn{margin-right: 20px;}
+#middle .graph {top: -129px;}
+#middle .graph-info .text_1 {font-size: 20px; line-height: 38px;}
+#middle .graph-info .text_2{font-size: 29px;line-height: 24px;}
+.features-bg-mid .laptop{ background-image:none}
+.list{ top:0;}
+.list .text_1{font-size: 29px; color: #fff; text-align: center; padding-top: 30px;font-weight: 700;padding-bottom: 20px;}
+.list .text_2 {font-size: 26px;display: block;text-align: center;}
+.list .text_3 {font-size: 26px;}
+.list .item {padding-left: 100px; padding-top: 15px;}
+.app_list h1{font-size: 32px;}
+
+/* Pricing Page */
+
+.pricing .table-pricing .column{ font-size:14px;}
+.pricing .table-pricing .column .feature-col{font-size: 15px;}
+.pricing .table-pricing .highlight .plan-title{ font-size:26px; padding-bottom: 54px; padding-top: 62px;}
+.pricing .table-pricing .column .plan-price{ font-size:40px; padding-bottom: 0px;}
+.pricing .table-pricing .column .plan-link a{padding: 9px 5px; font-size:16px;}
+.pricing .table-pricing .column .plan-link{padding-bottom: 50px;}
+.pricing .table-pricing .highlight{padding-bottom: 22px; border: 3px solid #00a1c7;}
+.pricing .table-pricing .column .plan-price span{display: inline;}
+}
+
+/*  #Mobile (Portrait)
+
+================================================== */	
+
+
+
+/* Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+
+.menu-link{ font-size:15px;}
+.header .tagline{font-size: 40px;padding-top: 125px;}
+.header .icons{ margin-bottom:15px;}
+.menu.active{background-color:#008CD0;}
+.menu-inner{width:100%;}
+#main .header{min-height: 690px;background-position: right top;background-size: unset;}
+.header .tagline {
+    font-size: 20px;
+    padding-top: 64px;
+}
+.og-grid li > a .services {
+	width: 312px;
+	height: 256px;
+}
+.og-grid li
+{
+	height: 256px;
+}
+.og-grid li > a, .og-grid li > a img
+{
+width:80%;
+}
+.services-grid .service-1,.services-grid .service-2,.services-grid .service-3,.services-grid .service-4,.services-grid .service-5,.services-grid .service-6
+{
+padding-top:100px;
+}
+.og-details
+{
+overflow:scroll;
+}
+.services-desc ul, .services-desc li
+{
+
+width:auto;
+}
+.services-desc .button
+{
+margin-bottom:10px;
+}
+.services-desc h1
+{
+font-size:30px;
+}
+.mob-menu{display:block;}
+.desktop-menu{display:none;}
+header .logo img{width:50%;}
+header .menu{ padding-top:33px;}
+#menu{background-color:#00A1C7;}
+#menu:after{border-bottom: 20px solid #00A1C7;}
+header .menu li a:hover{color:#fff;}
+#main .bg{min-height: 600px;}
+#main .bg_inner{ min-height:400px;}
+header .slider-info{margin-top: 200px;}
+header .inner{ margin-top:160px;}
+.mob-menu{position:absolute; right:0px}
+#toggle.on span{margin-left: 50px;}
+#toggle span{margin-left: 50px;}
+header .slider-info h2 {padding-bottom: 26px;}
+header .inner h2{ font-size:20px;}
+header .slider-info .contact-btn{width: inherit;float: none;margin-bottom: 0px; margin-right:25px;}
+header .slider-info .signup-btn{width: inherit;float: none;}
+header .slider-info h1{ font-size:32px;}
+#middle .graph{top: -104px; background-size: 86%;}
+#middle .graph-info{padding-top: 357px;padding-bottom: 218px;}
+#middle .graph-info .text_1{font-size: 20px;}
+#middle .graph-info .text_2{font-size: 30px; line-height: 22px;}
+.features-graph{ background:none; display:none;}
+.features-bg-mid{ min-height:526px;}
+.features-bg-mid .laptop{ background:none; height: 420px;}
+.list .text_1{font-size: 28px; padding-bottom: 25px;}
+.list .text_2{padding-bottom: 15px; font-size: 28px; display:block;}
+.list .text_3{font-size: 28px; line-height: 26px;}
+.list .item{font-size: 20px; padding-top: 20px;padding-bottom: 20px;}
+.list i{font-size: 36px; padding-top: 15px; padding-bottom: 15px;}
+.app_list h1{ font-size:28px; padding-left: 10px; padding-right: 10px;}
+.app_list li { width:88px; margin-bottom: 25px; margin-right: 20px;}
+.app_list li img{ width:100%;}
+.desktop-screen{background-size: 65%; left:6px; height: 634px;}
+.app_list .add_more i{ font-size:23px;}
+.app_list .add_more a{ margin-right:24px;}
+.screen-bg{ height:560px;}
+.footer h1{font-size: 30px;padding-top: 90px;}
+.footer .location{padding-left: 0px;}
+.footer .form{padding-top: 0px;}
+.features { height:543px;}
+.footer .location .address{ width:40%}
+
+/* Pricing Page */
+
+.pricing .table-pricing .column:first-child{ display:none;}
+.pricing .table-pricing .highlight{ position:inherit; top:inherit;}
+.pricing .table-pricing .column{margin-bottom: 35px;}
+.pricing .table-pricing .column .plan-link { padding-bottom:50px;}
+.pricing .table-pricing .column .plan-title{ font-size:36px;}
+.pricing .table-pricing .column .plan-price span{font-size: 14px;display: inline;width: auto;float: inherit;}
+.pricing .table-pricing .column li {font-weight:700;}
+}
+
+
+
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	header .logo img{width:100%;}
+	header .slider-info h1{ font-size:32px;}
+	#middle .graph{top: -56px; background-size: 90%;}
+	.features-bg-mid .laptop {height: 637px;background-position: bottom right;background-size: 70%; background-image: url(http://www.chattifi.com/images/laptop_graphic.png);
+    background-repeat: no-repeat; background-position: bottom 30px right 0px;}
+	.features-bg-mid{ min-height:627px;}
+	.features { height:inherit}
+	.list .item{font-size: 16px; padding-top: 10px; padding-bottom: 0px; min-height: 110px;}
+	.list i{font-size: 27px; padding-top: 15px; padding-bottom: 15px;}
+	.desktop-screen{background-size: 95%; left:0px; height: 533px;}
+	.screen-bg{ height:425px;}
+	.footer .location .address{ width:80%}
+	header .slider-info .contact-btn{width: 100%;float: left;margin-bottom: 10px; margin-right:0px;}
+	header .slider-info .signup-btn{width: 100%;float: left;}
+
+}
+
+@media only screen and (min-width: 176px) and (max-width: 319px) {
+	
+
+
+		
+}
+
+
+
+/* #Clearing
+
+================================================== */
+
+
+
+/* Self Clearing Goodness */
+
+.clearfix {	zoom: 1; }
+
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }

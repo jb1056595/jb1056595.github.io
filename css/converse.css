@@ -1,0 +1,594 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family:"Open Sans", Arial;
+	font-size:15px;
+	color:#212121;
+	line-height:20px;
+	margin:0;
+	padding:0;
+	background-color: #fff;
+}
+#main
+{
+	width:100%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0px;
+	background-color:#FFFFFF;
+}
+/* Confirmation Dialog*/
+#signupconfirmation {
+  color: #ffffff;
+  font-size:2em;
+  padding-top:100px;
+  line-height:1.2em;
+}
+a
+{
+	font-size:16px;
+	color:#2b3540;
+	text-decoration:none;
+}
+a:hover
+{
+	color:#1f54ba;
+	text-decoration:none;
+}
+.pad_0
+{
+padding-left:0;
+padding-right:0;
+}
+#main .bg
+{
+background-image:url(http://www.chattifi.com/images/cover-image.jpg);
+background-repeat:no-repeat;
+background-attachment: fixed;
+background-size:cover;
+min-height:950px;
+float:left;
+width:100%;
+}
+#main .bg_inner
+{
+min-height:720px;
+}
+header .logo
+{
+padding-top:38px;
+}
+header .menu
+{
+padding-top:48px;
+}
+header .menu .links
+{
+float:right;
+display:block;
+}
+header .menu li
+{
+list-style:none;
+width:auto;
+float:left;
+padding:15px 15px 15px 15px;
+text-transform:uppercase;
+}
+header .menu li a
+{
+text-decoration:none;
+color:#FFFFFF;
+font-size:16px;
+}
+header .menu li a:hover
+{
+color:#00a1c7;
+}
+header .menu li.get-started
+{
+	border: 1px solid #fff;
+    margin-left: 15px;
+    border-radius: 5px;
+	text-transform:none;
+	font-weight:700;
+}
+header .menu li.get-started:hover
+{
+background-color:#00a1c7;
+border: 1px solid #00a1c7;
+}
+header .menu li.get-started:hover a:hover
+{
+color:#fff;
+}
+header .slider-info
+{
+margin-top:500px;
+width:100%;
+text-align:center;
+}
+header .slider-info h1
+{
+font-size:40px;
+font-family:"Montserrat", Arial;
+color:#FFFFFF;
+padding-bottom:5px;
+}
+header .inner
+{
+margin-top:300px;
+}
+header .inner h1
+{
+font-size:60px;
+}
+header .slider-info h2
+{
+font-size:18px;
+font-family:"Montserrat", Arial;
+color:#FFFFFF;
+padding-bottom:50px;
+}
+header .inner h2
+{
+font-size:26px;
+}
+header .slider-info .contact-btn
+{
+	background-color: #1bc744;
+    padding: 15px 60px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-right: 50px;
+    border-radius: 5px;
+    font-weight: 700;
+	border: 2px solid #13ee47;
+}
+header .slider-info .contact-btn:hover
+{
+	border: 2px solid #ffffff;
+	background-color:transparent;
+}
+header .slider-info .signup-btn
+{
+    padding: 15px 60px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-right: 50px;
+    border-radius: 5px;
+    font-weight: 700;
+	border: 2px solid #ffffff;
+	background-color:transparent;
+}
+header .slider-info .signup-btn:hover
+{
+	background-color: #1bc744;
+	border: 2px solid #13ee47;
+}
+#middle { width:100%; position:relative; float:left;}
+#middle .graph
+{
+    position: absolute;
+    top: -105px;
+    background-image: url(http://www.chattifi.com/images/mid-graphic.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
+    display: inline-block;
+    min-height: 529px;
+    background-position: top center;
+}
+
+#middle .vik
+{
+    position: absolute;
+    top: 300px;
+    background-image: url(http://www.chattifi.com/images/solution.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
+    display: inline-block;
+    min-height: 529px;
+    background-position: top center;
+}
+
+
+#middle .graph-info
+{
+padding-top: 350px;
+padding-bottom: 240px;
+float:left;
+}
+#middle .graph-info .text_1
+{
+font-size:25px;
+text-transform:uppercase;
+font-weight:300;
+line-height: 50px;
+}
+#middle .graph-info .text_2
+{
+font-size:35px;
+text-transform:uppercase;
+font-weight:300;
+line-height: 38px;
+}
+#middle .graph-info p
+{
+padding-top:15px;
+font-size:16px;
+font-weight:300;
+}
+.features
+{
+width:100%;
+height:640px;
+position:relative;
+}
+.features-bg-mid
+{
+background-image:url(http://www.chattifi.com/images/features-background.jpg);
+background-size:cover;
+width:100%;
+min-height:580px;
+}
+.features-graph
+{
+background-image:url(http://www.chattifi.com/images/logo-border-path.png);
+background-position:top center;
+background-repeat:no-repeat;
+height:947px;
+position: absolute;
+width: 100%;
+top: -322px;
+left: -149px
+}
+.features-bg-mid .laptop
+{
+background-image: url(http://www.chattifi.com/images/laptop_graphic.png);
+background-repeat: no-repeat;
+background-position: top 30px right 0px;
+float: right;
+width: 100%;
+height: 548px
+}
+.list
+{
+width:100%;
+position:absolute;
+top:-30px;
+left:0px;
+}
+.list .text_1
+{
+color:#212121;
+font-size:29px;
+font-weight:300;
+width:100%;
+display:block;
+text-transform:uppercase;
+padding-bottom:45px;
+}
+.list .text_2
+{
+color:#FFFFFF;
+font-size:39px;
+font-weight:300;
+text-transform:uppercase;
+padding-bottom:15px;
+}
+.list .text_3
+{
+color:#FFFFFF;
+font-size:45px;
+font-weight:500;
+text-transform:uppercase;
+}
+.list i
+{
+width:100%;
+text-align:center;
+color:#FFFFFF;
+font-size:35px;
+padding-top:20px;
+padding-bottom:20px;
+}
+.list .item
+{
+text-align:center;
+color:#FFFFFF;
+font-size:20px;
+padding-top:30px;
+padding-bottom:30px;
+font-weight:700;
+}
+.app_list
+{
+text-align:center;
+float:left;
+}
+.app_list h1
+{
+font-size:36px;
+font-weight:300;
+color:#212121;
+text-align:center;
+padding-bottom: 25px;
+text-transform: uppercase;
+}
+.app_list ul
+{
+display:inline-block;
+}
+.app_list li
+{
+width:100px;
+float:left;
+list-style:none;
+margin-right:34px;
+}
+.app_list li img
+{
+padding-bottom:10px;
+}
+.app_list .add_more
+{
+padding-top:20px;
+padding-bottom:20px;
+}
+.app_list .add_more i
+{
+font-size:50px;
+}
+.app_list .add_more a
+{
+display:inline-block;
+color:#56d1ee;
+border:1px solid #56d1ee;
+border-radius:50%;
+padding:10px;
+}
+.app_list .add_more a:hover
+{
+color:#212121;
+border:1px solid #212121;
+}
+.screen-bg
+{
+height:860px;
+}
+.desktop-screen
+{
+position:absolute;
+background-image:url(http://www.chattifi.com/images/desktop-bottom.png);
+background-repeat:no-repeat;
+background-position:top center;
+width:100%;
+height:933px;
+z-index:1;
+left: 25px;
+}
+.footer
+{
+background: #00a1c7;
+background: -webkit-linear-gradient(top,#00a1c7,#003846);
+background: -o-linear-gradient(top,#00a1c7,#003846);
+background: -moz-linear-gradient(top,#00a1c7,#003846);
+background: linear-gradient(to bottom, #00a1c7, #003846);
+}
+.footer h1
+{
+font-size:36px;
+color:#FFFFFF;
+text-align:center;
+padding-top: 100px;
+font-weight: 300;
+}
+.footer .location
+{
+padding-top:50px;
+padding-left:100px;
+box-sizing:border-box;
+}
+.footer .icon_loc
+{
+padding-bottom: 100px;
+float: left;
+font-size: 48px;
+color: #fff;
+}
+.footer .location .address
+{
+color: #FFFFFF;
+font-size: 18px;
+line-height: 36px;
+float: left;
+padding-left: 20px;
+width:80%;
+margin-bottom:25px;
+font-weight:300;
+}
+.footer .location .address a
+{
+color: #FFFFFF;
+font-size: 18px;
+font-weight:300;
+}
+.footer .form
+{
+padding-top:50px;
+}
+.footer .form .field
+{
+margin-bottom:15px;
+}
+.footer .form .field label
+{
+color:#FFFFFF;
+font-size:14px;
+font-weight:300;
+padding-bottom:10px;
+}
+.footer .form .field input
+{
+border:0;
+border-radius:5px;
+padding:15px;
+-webkit-box-shadow: 7px 7px 0px 0px rgba(16, 87, 102, 0.75);
+-moz-box-shadow:    7px 7px 0px 0px rgba(16, 87, 102, 0.75);
+box-shadow:         7px 7px 0px 0px rgba(16, 87, 102, 0.75);
+width:100%;
+box-sizing: border-box;
+}
+.footer .form .field .btn
+{
+border-radius:5px;
+padding:20px 20px;
+background-color:#00a1c7;
+font-size:16px;
+color:#FFFFFF;
+font-weight:500;
+box-shadow:none;
+width:auto;
+margin-top:20px;
+}
+.footer .logo-copyright
+{
+padding-top: 33px;
+margin-bottom: 40px;
+text-align: center;
+}
+.footer .logo-copyright span
+{
+font-size: 14px;
+color: #FFFFFF;
+font-weight: 300;
+width: 100%;
+line-height: 40px;
+}
+/* Toggle Menu CSS */
+.mob-menu
+{
+display:none;
+}
+.desktop-menu
+{
+display:block;
+}
+#toggle {
+  display: block;
+  width: 28px;
+  height: 30px;
+  margin: 30px auto 10px;
+}
+
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+#toggle span:after{
+  top: 9px;
+}
+#toggle span {
+  position: relative;
+  display: block;
+}
+
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 100%;
+  height: 5px;
+  background-color: #888;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+/* on activation */
+#toggle.on span {
+  background-color: transparent;
+}
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+#toggle.on + #menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* menu appearance*/
+#menu {
+  position: relative;
+  color: #999;
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  text-align: center;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  /* just for this demo */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .4s;
+}
+#menu:after {
+  position: absolute;
+  top: -15px;
+  right: 35px;
+  content: "";
+  display: block;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid white;
+}
+
+/* Pricing Page */
+.pricing
+{
+background-color:#f5f5f5;
+padding-top:60px;
+padding-bottom:70px;
+width:100%;
+float:left;
+}
+.pricing h1
+{
+font-size:36px;
+color:#0e0e0e;
+font-weight:700;
+font-family:"Montserrat", Arial;
+text-align:center;
+}
+.pricing .table-pricing{padding-top:90px; color:#303030}
+.pricing .table-pricing .column{background-color:#FFFFFF; font-size:16px; position:relative;}
+.pricing .table-pricing .column:first-child{background-color:#f5f5f5;}
+.pricing .table-pricing .column ul{ padding:0; margin:0;}
+.pricing .table-pricing .column li{ min-height:60px; list-style:none; border-bottom:1px solid #d2d2d2; padding:0; margin:0; text-align:center; line-height:52px;}
+.pricing .table-pricing .column li span{ display:none;}
+.pricing .table-pricing .column .nobdr{ border-bottom:0;}
+.pricing .table-pricing .column .feature-col{ text-align:right; padding-right:20px; font-size:18px; font-family:"Montserrat", Arial; }
+.pricing .table-pricing .column .plan-title{ font-size:20px; font-family:"Montserrat", Arial; padding-top:50px; padding-bottom:50px;}
+.pricing .table-pricing .column .plan-price{ font-size:48px; font-family:"Montserrat", Arial; padding-top:40px; padding-bottom:50px;}
+.pricing .table-pricing .column .plan-price span{ font-size:14px; display:block;}
+.pricing .table-pricing .column .plan-link{padding-top:20px; padding-bottom:100px; text-align:center;}
+.pricing .table-pricing .column .plan-link a{color: #00a1c7;border: 2px solid #00a1c7;border-radius: 5px;padding: 15px 18px;font-size: 18px;font-weight: 700; background-color:#FFFFFF;}
+.pricing .table-pricing .column .plan-link a:hover{ background-color:#00a1c7; color:#FFFFFF}
+.pricing .table-pricing .highlight{background-color: #f4f4f4;border: 4px solid #00a1c7;position: absolute;top: -20px;width: 100%;padding-bottom: 35px;}
+.pricing .table-pricing .highlight .plan-title{ font-size:36px; padding-bottom: 67px;}
+
+.pricing-banner{ background-image:url(http://www.chattifi.com/images/pricing-banner.jpg); background-repeat:no-repeat; background-attachment:fixed; background-size:cover; background-position:center center; height:485px; width:100%; float:left; text-align:center; padding-top:170px;}
+.pricing-banner h1{ color:#FFFFFF; font-size:36px; font-family:"Montserrat", Arial; padding-bottom:30px;}
+.pricing-banner a{color: #FFFFFF;border-radius: 5px;padding: 15px 18px;font-size: 18px;font-weight: 700;background-color: #00a1c7;}
+.pricing-banner a:hover{ background-color:#0085a4;}

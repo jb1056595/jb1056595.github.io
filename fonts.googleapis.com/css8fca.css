@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url(http://fonts.gstatic.com/s/inconsolata/v16/BjAYBlHtW3CJxDcjzrnZCF02b4v3fUxqf9CZJ1qUoIA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Inconsolata Bold'), local('Inconsolata-Bold'), url(http://fonts.gstatic.com/s/inconsolata/v16/AIed271kqQlcIRSOnQH0ySBnJMIPt0VoltfALX9gDFQ.ttf) format('truetype');
+}
